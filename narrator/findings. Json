@@ -1,0 +1,40 @@
+import json
+from pathlib import Path
+
+# Create the narrator folder
+NARRATOR_DIR = Path("/content/narrator")
+NARRATOR_DIR.mkdir(parents=True, exist_ok=True)
+
+FINDINGS_FILE = NARRATOR_DIR / "findings.json"
+
+# Verified figures from your capstone requirements
+findings = {
+    "cleaned_total_revenue_inr": 97358.30,
+    "raw_total_revenue_inr": 99860.20,
+    "duplicate_reconciliation_delta_inr": 2501.90,
+    "return_rate_by_payment": {
+        "COD": 44.4,
+        "CARD": 14.7,
+        "UPI": 18.9
+    },
+    "highest_risk_segment": {
+        "payment_method": "COD",
+        "city_tier": 2,
+        "return_rate_pct": 54.5
+    },
+    "true_peak_month": {
+        "month": "2026-03",
+        "revenue_inr": 20318.90
+    },
+    "outlier_inflated_month": {
+        "month": "2026-01",
+        "apparent_revenue_inr": 29582.10,
+        "corrected_revenue_inr": 11637.10
+    }
+}
+
+with FINDINGS_FILE.open("w", encoding="utf-8") as f:
+    json.dump(findings, f, indent=2)
+
+print("Created:", FINDINGS_FILE)
+print("File exists:", FINDINGS_FILE.exists())
