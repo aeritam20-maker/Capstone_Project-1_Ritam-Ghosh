@@ -1,0 +1,17 @@
+product_id,product_name,category,price
+P01,"Onion Hair Oil",Haircare,349.00
+P02,"Onion Shampoo",Haircare,399.00
+P03,"Argan Hair Mask",Haircare,599.00
+P04,"Anti-Hairfall Serum",Haircare,649.00
+P05,"Rice Water Conditioner",Haircare,349.00
+P06,"Vitamin C Face Wash",Skincare,249.00
+P07,"Vitamin C Serum",Skincare,699.00
+P08,"Tea Tree Face Wash",Skincare,229.00
+P09,"Ubtan Face Mask",Skincare,299.00
+P10,"Rice Sunscreen SPF50",Skincare,449.00
+P11,"Milky Soft Baby Lotion",Babycare,299.00
+P12,"Baby Shampoo",Babycare,249.00
+P13,"Baby Massage Oil",Babycare,279.00
+P14,"Charcoal Deodorant",PersonalCare,199.00
+P15,"Tea Tree Body Wash",PersonalCare,349.00
+P16,"Aloe Vera Gel",PersonalCare,199.00
