@@ -26,6 +26,7 @@ available.
 The project should have this structure:
 
 Capstone_Project-1_Ritam-Ghosh/
+
 ├── README.md
 ├── sql/
 │   ├── schema.sql
