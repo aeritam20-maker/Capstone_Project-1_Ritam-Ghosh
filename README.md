@@ -25,8 +25,8 @@ available.
 
 The project should have this structure:
 
+```text
 Capstone_Project-1_Ritam-Ghosh/
-
 ├── README.md
 ├── sql/
 │   ├── schema.sql
@@ -44,9 +44,9 @@ Capstone_Project-1_Ritam-Ghosh/
 │   └── monthly_revenue_trend.png
 └── narrator/
     ├── findings.json
-    └── generate_narrative.py
+    └── generate_narrative.py 
 
-
+```
 
 findings.json, the visualisation images, and sample_output.txt are
 generated outputs. If they are not present initially, create them by
