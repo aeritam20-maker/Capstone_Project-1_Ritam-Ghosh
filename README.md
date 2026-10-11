@@ -27,14 +27,14 @@ The project should have this structure:
 
 Capstone_Project-1_Ritam-Ghosh/
 ├── README.md
-├── data/
-│   ├── customers.csv
-│   ├── products.csv
-│   └── orders.csv
 ├── sql/
 │   ├── schema.sql
 │   ├── seed_data.sql
 │   └── reports.sql
+├── data/
+│   ├── customers.csv
+│   ├── products.csv
+│   └── orders.csv
 ├── analysis/
 │   ├── clean_and_eda.py
 │   └── visualize.py
@@ -43,8 +43,8 @@ Capstone_Project-1_Ritam-Ghosh/
 │   └── monthly_revenue_trend.png
 └── narrator/
     ├── findings.json
-    ├── generate_narrative.py
-    └── sample_output.txt
+    └── generate_narrative.py
+
 
 findings.json, the visualisation images, and sample_output.txt are
 generated outputs. If they are not present initially, create them by
