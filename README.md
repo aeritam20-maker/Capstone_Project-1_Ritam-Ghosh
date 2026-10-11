@@ -148,7 +148,7 @@ analysis results---not maintained by manually typing fixed figures. Run
 this script again whenever the input CSV files or analysis logic change.
 
 The expected headline figures for the supplied project data are:
-
+```text
 Measure                                                 Expected result
 
 Raw revenue before duplicate removal                         ₹99,860.20
@@ -163,7 +163,7 @@ Peak month after quantity-outlier correction                 March 2026
 Corrected revenue in March 2026                              ₹20,318.90
 January 2026 apparent revenue before correction              ₹29,582.10
 January 2026 revenue after correction                        ₹11,637.10
-
+```
 These values are validation targets for the supplied data. If your
 results differ, check that you are using the supplied CSVs and that the
 scripts ran successfully in the required order.
@@ -304,3 +304,18 @@ These are descriptive findings from the supplied dataset. They show
 associations and patterns in the data; they do not, by themselves,
 establish that payment method, city tier, or discount levels cause
 returns.
+
+### Note on Software and Tools Used
+
+The project can be run using any suitable application or platform based on the user's preference and system availability. The tools recommended in this project are suggestions, not mandatory requirements.
+
+For example:
+
+* **SQL:** MySQL Workbench or another compatible SQL environment.
+* **Python:** Google Colab, Jupyter Notebook, VS Code, or another Python environment.
+* **Data Visualisation:** Matplotlib or another suitable visualisation tool.
+* **Version Control:** Git and GitHub.
+* **GenAI Narrative:** Gemini API or the provided offline mode.
+
+Users may choose alternative tools that support the required tasks and produce the expected results. The main objective is to complete the project requirements and reproduce the reported findings, rather than use one specific application.
+
