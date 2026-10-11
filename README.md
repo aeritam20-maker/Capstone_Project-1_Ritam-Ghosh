@@ -48,9 +48,6 @@ Capstone_Project-1_Ritam-Ghosh/
 
 ```
 
-findings.json, the visualisation images, and sample_output.txt are
-generated outputs. If they are not present initially, create them by
-following the run instructions below.
 
 3. Requirements
 
